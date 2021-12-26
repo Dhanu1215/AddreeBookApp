@@ -1,10 +1,15 @@
 package com.example.addressbook.dto;
+
+import javax.validation.constraints.Pattern;
+
 /**
  * DTO : AddreeBookDTO
  * @author praja
  *
  */
 public class AddressBookDTO {
+	
+	@Pattern(regexp = "^[A-Z]{1}[a-zA-Z\\$]{2,}$",message = "Firstname is Invalid")
 	public String firstName;
 	public String lastName;
 	public String address;
