@@ -2,6 +2,8 @@ package com.example.addressbook.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -57,7 +59,7 @@ public class AddressBookController {
 	 * @return : details
 	 */
 	@PostMapping("/create")
-	public ResponseEntity<ResponseDTO> getAddressBookData(@RequestBody AddressBookDTO addressBookDTO){
+	public ResponseEntity<ResponseDTO> getAddressBookData(@Valid @RequestBody AddressBookDTO addressBookDTO){
 		AddressBookData contactData = null;
 		contactData = addressBookService.createAddressBookData(addressBookDTO);
 		ResponseDTO respDTO = new ResponseDTO("Created AddressBook data Successfully", contactData);
@@ -70,7 +72,7 @@ public class AddressBookController {
 	 * @return : details
 	 */
 	@PutMapping("/update/{contactId}")
-	public ResponseEntity<ResponseDTO> updateAddressBookData(@PathVariable("contactId")int contactId, @RequestBody AddressBookDTO addressBookDTO){
+	public ResponseEntity<ResponseDTO> updateAddressBookData(@Valid @PathVariable("contactId")int contactId, @RequestBody AddressBookDTO addressBookDTO){
 		AddressBookData contactData = null;
 		contactData = addressBookService.updateAddressBookData(contactId,addressBookDTO);
 		ResponseDTO respDTO = new ResponseDTO("Updated AddressBook data Successfully", contactData);
