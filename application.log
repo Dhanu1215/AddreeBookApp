@@ -16,3 +16,73 @@
 2021-12-26 13:59:06.721 DEBUG 12148 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Running with Spring Boot v2.6.2, Spring v5.3.14
 2021-12-26 13:59:06.721  INFO 12148 --- [restartedMain] c.e.addressbook.AddressBookApplication   : No active profile set, falling back to default profiles: default
 2021-12-26 13:59:10.057  WARN 12148 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 13:59:10.399  WARN 12148 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-26 13:59:10.588  INFO 12148 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Started AddressBookApplication in 4.435 seconds (JVM running for 5.639)
+2021-12-26 13:59:10.594  INFO 12148 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Address Book App Started in COMMON Environment
+2021-12-26 14:46:18.666  INFO 12864 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on LAPTOP-59Q5IQQN with PID 12864 (C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook\target\classes started by praja in C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook)
+2021-12-26 14:46:18.669 DEBUG 12864 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 14:46:18.669  INFO 12864 --- [restartedMain] c.e.addressbook.AddressBookApplication   : The following profiles are active: DEV
+2021-12-26 14:46:22.807  WARN 12864 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 14:46:23.180  WARN 12864 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-26 14:46:23.380  INFO 12864 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Started AddressBookApplication in 5.304 seconds (JVM running for 6.4)
+2021-12-26 14:46:23.384  INFO 12864 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Address Book App Started in DEV Environment
+2021-12-26 14:47:37.475  INFO 1832 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on LAPTOP-59Q5IQQN with PID 1832 (C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook\target\classes started by praja in C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook)
+2021-12-26 14:47:37.477 DEBUG 1832 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 14:47:37.477  INFO 1832 --- [restartedMain] c.e.addressbook.AddressBookApplication   : The following profiles are active: DEV
+2021-12-26 14:47:41.290  WARN 1832 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 14:47:41.652  WARN 1832 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-26 14:47:41.850  INFO 1832 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Started AddressBookApplication in 4.895 seconds (JVM running for 5.924)
+2021-12-26 14:47:41.854  INFO 1832 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Address Book App Started in DEV Environment
+2021-12-26 14:53:44.030  INFO 14604 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on LAPTOP-59Q5IQQN with PID 14604 (C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook\target\classes started by praja in C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook)
+2021-12-26 14:53:44.033 DEBUG 14604 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 14:53:44.033  INFO 14604 --- [restartedMain] c.e.addressbook.AddressBookApplication   : The following profiles are active: DEV
+2021-12-26 14:53:44.044  INFO 15848 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on LAPTOP-59Q5IQQN with PID 15848 (C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook\target\classes started by praja in C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook)
+2021-12-26 14:53:44.047 DEBUG 15848 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 14:53:44.047  INFO 15848 --- [restartedMain] c.e.addressbook.AddressBookApplication   : The following profiles are active: DEV
+2021-12-26 14:53:48.197  WARN 14604 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 14:53:48.199  WARN 15848 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 14:53:48.619  WARN 14604 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-26 14:53:48.624  WARN 15848 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-26 14:53:48.800  WARN 15848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-26 14:53:48.849  WARN 15848 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-12-26 14:53:48.902  INFO 14604 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Started AddressBookApplication in 5.511 seconds (JVM running for 6.802)
+2021-12-26 14:53:48.907  INFO 14604 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Address Book App Started in DEV Environment
+2021-12-26 14:53:48.938 ERROR 15848 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-12-26 14:53:57.200  INFO 684 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on LAPTOP-59Q5IQQN with PID 684 (C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook\target\classes started by praja in C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook)
+2021-12-26 14:53:57.202 DEBUG 684 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 14:53:57.202  INFO 684 --- [restartedMain] c.e.addressbook.AddressBookApplication   : The following profiles are active: DEV
+2021-12-26 14:54:00.817  WARN 684 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 14:54:01.209  WARN 684 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-26 14:54:01.403  INFO 684 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Started AddressBookApplication in 4.727 seconds (JVM running for 5.703)
+2021-12-26 14:54:01.409  INFO 684 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Address Book App Started in DEV Environment
+2021-12-26 15:01:30.327  INFO 16816 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on LAPTOP-59Q5IQQN with PID 16816 (C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook\target\classes started by praja in C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook)
+2021-12-26 15:01:30.330 DEBUG 16816 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 15:01:30.331  INFO 16816 --- [restartedMain] c.e.addressbook.AddressBookApplication   : The following profiles are active: DEV
+2021-12-26 15:01:33.945  WARN 16816 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 15:01:34.292  WARN 16816 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-26 15:01:34.483  INFO 16816 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Started AddressBookApplication in 4.707 seconds (JVM running for 5.745)
+2021-12-26 15:01:34.486  INFO 16816 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Address Book App Started in DEV Environment
+2021-12-26 15:01:39.724  INFO 11532 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on LAPTOP-59Q5IQQN with PID 11532 (C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook\target\classes started by praja in C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook)
+2021-12-26 15:01:39.727 DEBUG 11532 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 15:01:39.727  INFO 11532 --- [restartedMain] c.e.addressbook.AddressBookApplication   : The following profiles are active: DEV
+2021-12-26 15:01:43.273  WARN 11532 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 15:01:43.643  WARN 11532 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-26 15:01:43.847  INFO 11532 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Started AddressBookApplication in 4.657 seconds (JVM running for 5.735)
+2021-12-26 15:01:43.853  INFO 11532 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Address Book App Started in DEV Environment
+2021-12-26 15:04:13.110  INFO 8012 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.1 on LAPTOP-59Q5IQQN with PID 8012 (C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook\target\classes started by praja in C:\Users\praja\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\AddressBook)
+2021-12-26 15:04:13.112 DEBUG 8012 --- [restartedMain] c.e.addressbook.AddressBookApplication   : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-26 15:04:13.112  INFO 8012 --- [restartedMain] c.e.addressbook.AddressBookApplication   : The following profiles are active: DEV
+2021-12-26 15:04:16.603  WARN 8012 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
